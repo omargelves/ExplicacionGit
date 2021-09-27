@@ -11,14 +11,11 @@ ul{
     display: flex;
     justify-content: space-between;
     padding: 10px;
-<<<<<<< HEAD
+
 }
 
-<<<<<<< HEAD
 .logo{
     height: 70px;
-}
-=======
 }
 
 
@@ -27,36 +24,26 @@ ul{
     padding: 5px 10px;
     border-radius: 10px;
     font-weight: bolder;
-}
-.button:hover{
-    cursor: pointer;
-    transform: scale(1.1);
-}
-<<<<<<< HEAD
->>>>>>> 5-crear-boton-nuevo-post
-=======
-.mainButton{
-    background-color: seagreen;
-    color: white;
     
 }
-
+.mainButton{
+    background-color: teal;
+    color: white;
+    border: 0px;
+    padding: 5px 10px;
+    font-weight: bolder;
+}
 .mainButton:hover{
     box-shadow: 1px 1px green;
+    color: white;
+    transform: scale(1.1);
 }
-
 .secondaryButton{
     background-color:lightskyblue;
     color: white;   
 }
 
-.secondaryButton:hover{
-    box-shadow: 1px 1px rgb(119, 229,233);
-}
->>>>>>> 6-crear-boton-login
-=======
-  
-    }
+    
 
 .buscar{
     background-color: white;
@@ -64,7 +51,6 @@ ul{
     padding: 4px;
     border-radius: 8px;
 }
-
 .buscar:focus-within{
     border: 1px solid blue;
 }
@@ -72,4 +58,4 @@ ul{
     outline: none;
     border: 0px;
 }
->>>>>>> 8-crear-cuadro-busqueda
+
