@@ -20,19 +20,36 @@ ul{
 =======
 }
 
-.mainButton{
-    background-color: seagreen;
-    color: white;
+
+.button {
     border: 0px;
     padding: 5px 10px;
     border-radius: 10px;
     font-weight: bolder;
-    ;
+}
+.button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+<<<<<<< HEAD
+>>>>>>> 5-crear-boton-nuevo-post
+=======
+.mainButton{
+    background-color: seagreen;
+    color: white;
+    
 }
 
 .mainButton:hover{
-    cursor: pointer;
-    box-shadow: 2px 2px rgb(70, 116, 3);
-    transform: scale(1.1);
+    box-shadow: 1px 1px green;
 }
->>>>>>> 5-crear-boton-nuevo-post
+
+.secondaryButton{
+    background-color:lightskyblue;
+    color: white;   
+}
+
+.secondaryButton:hover{
+    box-shadow: 1px 1px rgb(119, 229,233);
+}
+>>>>>>> 6-crear-boton-login
