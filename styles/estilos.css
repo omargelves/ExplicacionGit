@@ -11,6 +11,7 @@ ul{
     display: flex;
     justify-content: space-between;
     padding: 10px;
+<<<<<<< HEAD
 }
 
 <<<<<<< HEAD
@@ -53,3 +54,22 @@ ul{
     box-shadow: 1px 1px rgb(119, 229,233);
 }
 >>>>>>> 6-crear-boton-login
+=======
+  
+    }
+
+.buscar{
+    background-color: white;
+    border: 1px solid gray;
+    padding: 4px;
+    border-radius: 8px;
+}
+
+.buscar:focus-within{
+    border: 1px solid blue;
+}
+.buscar > input{
+    outline: none;
+    border: 0px;
+}
+>>>>>>> 8-crear-cuadro-busqueda
